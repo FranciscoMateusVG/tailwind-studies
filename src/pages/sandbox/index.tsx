@@ -46,6 +46,12 @@ const sandBoxLinks = [
     description:
       "Just the basics - Everything you need to know to set up your database and authentication.",
   },
+  {
+    url: "/sandbox/typography",
+    title: "Typography",
+    description:
+      "Just the basics - Everything you need to know to set up your database and authentication.",
+  },
 ];
 
 export default SandBox;
