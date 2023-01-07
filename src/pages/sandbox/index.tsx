@@ -35,7 +35,7 @@ const sandBoxLinks = [
       "Just the basics - Everything you need to know to set up your database and authentication.",
   },
   {
-    url: "/sandbox/container-and-spacing",
+    url: "/sandbox/container-spacing",
     title: "Container & Spacing",
     description:
       "Just the basics - Everything you need to know to set up your database and authentication.",
