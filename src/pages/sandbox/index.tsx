@@ -9,7 +9,7 @@ const SandBox: NextPage = () => {
       <Head>
         <title>Tailwind Sandbox</title>
         <meta name="description" content="Tailwind Sandbox" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/tailwind-icon.png" />
       </Head>
       <main className="p-10">
         <div className="flex w-screen flex-wrap gap-5">
