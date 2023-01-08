@@ -1,6 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import { SandBoxLinkList } from "../../components/utils/SandBoxLinkList";
+import { sandBoxLinks } from "../../constants/sandboxLinks.constants";
 
 const SandBox: NextPage = () => {
   return (
@@ -11,7 +12,9 @@ const SandBox: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="p-10">
-        <div className="flex flex-col space-y-4">{renderSandBoxLinks()}</div>
+        <div className="flex w-screen flex-wrap gap-5">
+          {renderSandBoxLinks()}
+        </div>
       </main>
     </>
   );
@@ -26,44 +29,5 @@ const renderSandBoxLinks = () =>
       title={title}
     />
   ));
-
-const sandBoxLinks = [
-  {
-    url: "/sandbox/utility-first",
-    title: "Utility First",
-    description:
-      "Just the basics - Everything you need to know to set up your database and authentication.",
-  },
-  {
-    url: "/sandbox/container-spacing",
-    title: "Container & Spacing",
-    description:
-      "Just the basics - Everything you need to know to set up your database and authentication.",
-  },
-  {
-    url: "/sandbox/colors",
-    title: "Colors",
-    description:
-      "Just the basics - Everything you need to know to set up your database and authentication.",
-  },
-  {
-    url: "/sandbox/typography",
-    title: "Typography",
-    description:
-      "Just the basics - Everything you need to know to set up your database and authentication.",
-  },
-  {
-    url: "/sandbox/width-height",
-    title: "Width & Height",
-    description:
-      "Just the basics - Everything you need to know to set up your database and authentication.",
-  },
-  {
-    url: "/sandbox/layout-position",
-    title: "Layout & Position",
-    description:
-      "Just the basics - Everything you need to know to set up your database and authentication.",
-  },
-];
 
 export default SandBox;

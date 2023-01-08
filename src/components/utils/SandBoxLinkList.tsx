@@ -14,7 +14,7 @@ export const SandBoxLinkList: React.FC<SandBoxLinkListProps> = ({
 }) => {
   return (
     <Link
-      className="flex max-w-lg flex-col gap-4 rounded-lg border border-black bg-white/10 p-4 text-black hover:bg-white/20"
+      className="flex h-40 max-w-md flex-col gap-4 rounded-lg border border-black bg-white/10 p-4 text-black"
       href={link}
       target="_blank"
     >
