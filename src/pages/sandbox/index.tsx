@@ -54,7 +54,13 @@ const sandBoxLinks = [
   },
   {
     url: "/sandbox/width-height",
-    title: "Width and Height",
+    title: "Width & Height",
+    description:
+      "Just the basics - Everything you need to know to set up your database and authentication.",
+  },
+  {
+    url: "/sandbox/layout-position",
+    title: "Layout & Position",
     description:
       "Just the basics - Everything you need to know to set up your database and authentication.",
   },
